@@ -1,7 +1,8 @@
-"""Interactive demo CLI (not graded)."""
+"""Interactive CLI for TinyTools calculator (not graded, demo only)."""
 from calculator import add, subtract, multiply, divide
 
 def main():
+    """Run an interactive loop that reads an operation and two numbers, then prints the result."""
     print("TinyTools Calculator (add/subtract/multiply/divide)")
     op = input("Operation: ").strip().lower()
     a = float(input("First number: "))
